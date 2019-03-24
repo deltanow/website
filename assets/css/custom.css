@@ -2,6 +2,46 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.grey-bg {
-  background-color: #e9ecef;
+.bg-nileblue {
+  background-color: #223c50;
+  color:white;
+}
+
+.bg-shakespeare {
+  background-color: #5ca2b2;
+  color:white;
+}
+
+.btn-nileblue {
+  color: #fff;
+  background-color: #223c50;
+  border-color: #223c50;
+  border-radius: 0px;
+}
+
+.btn-nileblue:hover {
+  color: #fff;
+  background-color: #5ca2b2;
+  border-color: #5ca2b2;
+}
+
+.btn-nileblue:focus, .btn-nileblue.focus {
+  box-shadow: 0 0 0 0.2rem rgba(34, 60, 80, 0.7);
+}
+
+.btn-shakespeare {
+  color: #fff;
+  background-color: #5ca2b2;
+  border-color: #5ca2b2;
+  border-radius: 0px;
+}
+
+.btn-shakespeare:hover {
+  color: #fff;
+  background-color: #223c50;
+  border-color: #223c50;
+}
+
+.btn-shakespeare:focus, .btn-shakespeare.focus {
+  box-shadow: 0 0 0 0.2rem rgba(92, 162, 178, 0.7);
 }
